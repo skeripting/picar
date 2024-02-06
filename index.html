@@ -1,0 +1,33 @@
+<html>
+  <body>
+    <style>
+      * {
+        font-family: Verdana;
+      }
+    </style>
+    <h1>PiCar Version 1.0</h1>
+    <p>Welcome to the new PiCar!</p>
+    <p>Below, you can find the controls for the PiCar.</p>
+    <h2>Car Mode</h2>
+    <button id="manual">Manual</button>
+    <button id="automatic">Automatic</button>
+    <h2>Car Speed</h2>
+    <input
+      id="speedSlider"
+      type="range"
+      min="-100"
+      max="100"
+      value="0"
+      orient="vertical"
+    />
+    <div>
+      <span id="speedValue">Speed: 0</span>
+    </div>
+    <h2>Music Controls</h2>
+    <p>You can control the music with the following buttons</p>
+    <button id="jingle-bells">Jingle Bells</button>
+    <h2>Stop</h2>
+    <p>You can stop the car completely with this button.</p>
+    <button id="immediate-stop">Stop</button>
+  </body>
+</html>
